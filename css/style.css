@@ -1,0 +1,116 @@
+body {
+	background-color: #2e75b5ff;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+	color: black !important;
+	font-weight: bold;
+}
+
+p { margin: 1rem; }
+
+section > p { margin: 3rem; }
+
+button {
+	cursor: pointer;
+	background-color: black;
+	border: 6px solid black;
+	border-radius: 5px;
+	padding: 0px;
+	margin: 5px;
+	font-weight: bold;
+}
+
+button p {
+	color: white;
+	border: 3px solid white;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 0px;
+	vertical-align: middle;
+	font-size: 1.2rem;
+}
+
+div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Roboto Mono", monospace;
+	font-weight: 900;
+	font-size: 4rem;
+}
+
+h2 {
+	font-family: "Inter", "Helvetica", "Arial", sans-serif;
+	font-weight: 900;
+	font-size: 3rem;
+	text-align: left;
+}
+
+h3 {
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 700;
+	font-size: 2rem;
+	margin: 0px;
+	text-align: center;
+}
+
+section {
+	width: 100%;
+}
+
+section:nth-child(even) {
+	background-image: linear-gradient(bottom, transparent 100px, #6fa8dcff 100px, #6fa8dcff 100%);
+	background-image: -webkit-linear-gradient(bottom, transparent 100px, #6fa8dcff 100px, #6fa8dcff 100%);
+	background-image: -moz-linear-gradient(bottom, transparent 100px, #6fa8dcff 100px, #6fa8dcff 100%);
+	background-image: -ms-linear-gradient(bottom, transparent 100px, #6fa8dcff 100px, #6fa8dcff 100%);
+	background-image: -o-linear-gradient(bottom, transparent 100px, #6fa8dcff 100px, #6fa8dcff 100%);
+}
+
+.columns,.lightbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.columns div {
+	display: inline-block;
+	width: 50%;
+	min-width: 25rem;
+	padding: 1rem;
+}
+
+.data {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.data h2 {
+	text-align: center;
+}
+
+.data div {
+	background-color: #ffaf51;
+	text-align: center;
+	border: solid 1px white;
+	border-radius: 10px;
+	width: 30%;
+	margin: 1rem;
+}
+
+.lightbox img {
+	width: 50%;
+	padding: 1rem;
+}
+
+.border {
+	align: center;
+	margin: 50px;
+	padding: 20px;
+}
